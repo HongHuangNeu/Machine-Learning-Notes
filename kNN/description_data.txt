@@ -1,0 +1,1 @@
+数据格式：[fre flier miles earned per year]'\t'[per of time spent playing video games]'\t'[liters of ice cream consumed per year]'\t'[1,means do not at all/2,means small do/3,means large do]
