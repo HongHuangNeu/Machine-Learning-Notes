@@ -46,3 +46,11 @@ We can construct the following likelihood function:
 For convenience, for each data point ![](http://latex.codecogs.com/gif.latex?x_i) in the training set, we can make:
 
 ![](http://latex.codecogs.com/gif.latex?L_i =(S(z_i))^{y_{i}}(1-S(z_i))^{1-y_{i}})
+
+In this way, if ![](http://latex.codecogs.com/gif.latex?x_i) belongs to 1-class, then ![](http://latex.codecogs.com/gif.latex?y_i=1), we have
+
+![](http://latex.codecogs.com/gif.latex?L_i=s(z_i)=P(y=1|x_i))
+
+if ![](http://latex.codecogs.com/gif.latex?x_i) belongs to 0-class, then ![](http://latex.codecogs.com/gif.latex?y_i=0), we have
+
+![](http://latex.codecogs.com/gif.latex?L_i=1-s(z_i)=P(y=0|x_i))
