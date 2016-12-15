@@ -18,3 +18,7 @@ Suppose we have a two class classification problem, with label 1 and 0 respectiv
 Given x, the probability that it belongs to 1-class:
 
 ![](http://latex.codecogs.com/gif.latex?P(y=1|x)=\\frac{1}{1+e^{w^{T} x}}=s(w^{T} x))
+
+Then the probability for x to belong to 0-class:
+
+![](http://latex.codecogs.com/gif.latex?P(y=0|x)=1-P(y=1|x)=1-s(w^{T} x))
