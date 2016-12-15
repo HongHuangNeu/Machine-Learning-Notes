@@ -67,3 +67,7 @@ Take the log for this likelihood function, we have
 Substitue with ![](http://latex.codecogs.com/gif.latex?z_i=w^{T} x_{i})
 
 ![](http://latex.codecogs.com/gif.latex?\\log L=\\sum^{m}_{i=1}y_{i} \\log s(w^{T} x_{i})+(1-y_{i}) \\log (1-s(w^{T} x_{i})))
+
+A formula we can use: 
+
+![](http://latex.codecogs.com/gif.latex?s'(z)=\\frac{d(\\frac{1}{1+e^{-z}})}{dz}=s(z)(1-s(z)))
