@@ -42,3 +42,7 @@ Suppose
 We can construct the following likelihood function:
 
 ![](http://latex.codecogs.com/gif.latex?L=\\prod_{l=1}^{k}P(y=1|x_{l})\\prod_{l=k+1}^{m}P(y=0|x_{l}))
+
+For convenience, for each data point ![](http://latex.codecogs.com/gif.latex?x_i) in the training set, we can make:
+
+![](http://latex.codecogs.com/gif.latex?L_i =(S(z_i))^{y_{i}})
