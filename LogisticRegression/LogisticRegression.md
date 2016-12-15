@@ -58,3 +58,5 @@ if ![](http://latex.codecogs.com/gif.latex?x_i) belongs to 0-class, then ![](htt
 We can unify y=1 and y=0 and rewrite the likelihood function as follows:
 
 ![](http://latex.codecogs.com/gif.latex?L=\\prod^{m}_{i=1}P(y=1|x_i)^{y_{i}}(1-P(y=1|x_{i}))^{1-y_{i}})
+![](http://latex.codecogs.com/gif.latex?=\\prod^{m}_{i=1}s(z_i)^{y_{i}}(1-s(z_{i}))^{1-y_{i}})
+
