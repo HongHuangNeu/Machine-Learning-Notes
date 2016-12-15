@@ -45,4 +45,4 @@ We can construct the following likelihood function:
 
 For convenience, for each data point ![](http://latex.codecogs.com/gif.latex?x_i) in the training set, we can make:
 
-![](http://latex.codecogs.com/gif.latex?L_i =(S(z_i))^{y_{i}})
+![](http://latex.codecogs.com/gif.latex?L_i =(S(z_i))^{y_{i}}(1-S(z_i))^{1-y_{i}})
