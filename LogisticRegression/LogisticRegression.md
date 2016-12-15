@@ -62,8 +62,8 @@ We can unify y=1 and y=0 and rewrite the likelihood function as follows:
 
 Take the log for this likelihood function, we have
 
-![](http://latex.codecogs.com/gif.latex?log L=\\sum^{m}_{i=1}y_{i} log s(z_i)+(1-y_{i}) log (1-s(z_i)))
+![](http://latex.codecogs.com/gif.latex?\\log L=\\sum^{m}_{i=1}y_{i} \\log s(z_i)+(1-y_{i}) \\log (1-s(z_i)))
 
 Substitue with ![](http://latex.codecogs.com/gif.latex?z_i=w^{T} x_{i})
 
-![](http://latex.codecogs.com/gif.latex?log L=\\sum^{m}_{i=1}y_{i} log s(w^{T} x_{i})+(1-y_{i}) log (1-s(w^{T} x_{i})))
+![](http://latex.codecogs.com/gif.latex?\\log L=\\sum^{m}_{i=1}y_{i} \\log s(w^{T} x_{i})+(1-y_{i}) \\log (1-s(w^{T} x_{i})))
