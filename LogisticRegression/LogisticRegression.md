@@ -80,3 +80,5 @@ For the log likelihhod function, take the derivative with respect to w:
 Use formula (1)
 
 ![](http://latex.codecogs.com/gif.latex?=\\sum^{m}_{i=1}(y_i (1-s(z_i)) \\frac{\\partial z_i}{\\partial w} +(1-y_i)(-s(z_i)) \\frac{\\partial z_i}{\\partial w} ))
+
+We have ![](http://latex.codecogs.com/gif.latex?z_i=w^{T} x_{i}) and ![](http://latex.codecogs.com/gif.latex?\\frac{\\partial z_i}{\\partial w}=x_i)
