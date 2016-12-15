@@ -102,4 +102,6 @@ so
 
 Then we can use this result to perform gradient ascend to maximize loglikelihood:
 
+![](http://latex.codecogs.com/gif.latex?w:=w+\\alpha \\frac{\\partial \\log L}{\\partial w})
+![](http://latex.codecogs.com/gif.latex?=w+\\alpha(\\sum^{m}_{i=1}(y_i-s(w^{T} x_i))x_i)) 
 
