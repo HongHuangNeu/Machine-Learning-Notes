@@ -66,4 +66,4 @@ Take the log for this likelihood function, we have
 
 Substitue with ![](http://latex.codecogs.com/gif.latex?z_i=w^{T} x_{i})
 
-
+![](http://latex.codecogs.com/gif.latex?log L=\\sum^{m}_{i=1}y_{i} log s(w^{T} x_{i})+(1-y_{i}) log (1-s(w^{T} x_{i})))
