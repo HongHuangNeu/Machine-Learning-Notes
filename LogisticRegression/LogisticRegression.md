@@ -26,3 +26,17 @@ Then the probability for x to belong to 0-class:
 Given m training data points:
 
 ![](http://latex.codecogs.com/gif.latex?x_1, x_2,...,x_m)
+
+We want to find a w such that:
+
+if ![](http://latex.codecogs.com/gif.latex?x_i) belongs to 1-class, then ![](http://latex.codecogs.com/gif.latex?P(y=1|x)) is as large as possible (as close as possible to 1).
+
+if ![](http://latex.codecogs.com/gif.latex?x_i) belongs to 0-class, then ![](http://latex.codecogs.com/gif.latex?P(y=0|x)) is as large as possible (as close as possible to 1).
+
+Suppose 
+
+![](http://latex.codecogs.com/gif.latex?x_1, x_2,...,x_k) belongs to 1-class
+
+![](http://latex.codecogs.com/gif.latex?x_{k+1}, x_{k+2},...,x_m) belongs to 0-class
+
+
