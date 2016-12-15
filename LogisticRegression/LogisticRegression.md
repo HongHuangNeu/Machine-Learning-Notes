@@ -70,4 +70,9 @@ Substitue with ![](http://latex.codecogs.com/gif.latex?z_i=w^{T} x_{i})
 
 A formula we can use: 
 
-![](http://latex.codecogs.com/gif.latex?s'(z)=\\frac{d(\\frac{1}{1+e^{-z}})}{dz}=s(z)(1-s(z)))
+![](http://latex.codecogs.com/gif.latex?s'(z)=\\frac{d(\\frac{1}{1+e^{-z}})}{dz}=s(z)(1-s(z)))       (1)
+
+For the log likelihhod function, take the derivative with respect to w:
+
+![](http://latex.codecogs.com/gif.latex?\\frac{\\partial \\log L}{\\partial w})
+
