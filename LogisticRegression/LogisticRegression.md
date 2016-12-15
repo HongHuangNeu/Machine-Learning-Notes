@@ -90,5 +90,11 @@ If ![](http://latex.codecogs.com/gif.latex?x_{i}) belongs to 1-class:
 ![](http://latex.codecogs.com/gif.latex?y_i(1-s(z_i))-(1-y_i)s(z_i))
 ![](http://latex.codecogs.com/gif.latex?=1-s(z_i)=y_i-s(w^{T} x))
 
+If ![](http://latex.codecogs.com/gif.latex?x_{i}) belongs to 0-class:
+
+![](http://latex.codecogs.com/gif.latex?y_i(1-s(z_i))-(1-y_i)s(z_i))
+![](http://latex.codecogs.com/gif.latex?=-s(z_i)=y_i-s(w^{T} x))
+
+so
 
 
