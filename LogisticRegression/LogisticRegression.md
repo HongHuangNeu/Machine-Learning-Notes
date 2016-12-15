@@ -83,4 +83,6 @@ Use formula (1)
 
 We have ![](http://latex.codecogs.com/gif.latex?z_i=w^{T} x_{i}) and ![](http://latex.codecogs.com/gif.latex?\\frac{\\partial z_i}{\\partial w}=x_i)
 
-![](http://latex.codecogs.com/gif.latex?=\\sum^{m}_{i=1}(y_i(1-s(z_i))x_i-(1-y_i)s(z_i)x_i))
+![](http://latex.codecogs.com/gif.latex?=\\sum^{m}_{i=1}(y_i(1-s(z_i))-(1-y_i)s(z_i))x_i)
+
+
