@@ -60,3 +60,6 @@ We can unify y=1 and y=0 and rewrite the likelihood function as follows:
 ![](http://latex.codecogs.com/gif.latex?L=\\prod^{m}_{i=1}P(y=1|x_i)^{y_{i}}(1-P(y=1|x_{i}))^{1-y_{i}})
 ![](http://latex.codecogs.com/gif.latex?=\\prod^{m}_{i=1}s(z_i)^{y_{i}}(1-s(z_{i}))^{1-y_{i}})
 
+Take the log for this likelihood function, we have
+
+![](http://latex.codecogs.com/gif.latex?L=\\sum^{m}_{i=1}y_{i} log s(z_i)+(1-y_{i}) log (1-s(z_i)))
