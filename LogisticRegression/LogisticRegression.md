@@ -9,4 +9,4 @@ We want to map the output z to the interval [0,1]. In this way, the mapped value
 
 A sigmoid function will be used to map z to a probability:
 
-![](http://latex.codecogs.com/gif.latex?s(z)=\\frac{1}{1+e^{z}})
+![](http://latex.codecogs.com/gif.latex?s(z)=\\frac{1}{1+e^{z}}), where ![](http://latex.codecogs.com/gif.latex?z\in (- \infty,+\infty))
