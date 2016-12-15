@@ -54,3 +54,7 @@ In this way, if ![](http://latex.codecogs.com/gif.latex?x_i) belongs to 1-class,
 if ![](http://latex.codecogs.com/gif.latex?x_i) belongs to 0-class, then ![](http://latex.codecogs.com/gif.latex?y_i=0), we have
 
 ![](http://latex.codecogs.com/gif.latex?L_i=1-s(z_i)=P(y=0|x_i))
+
+We can unify y=1 and y=0 and rewrite the likelihood function as follows:
+
+![](http://latex.codecogs.com/gif.latex?L=\\prod^{m}_{i=1}P(y=1|x_i)^{y_{i}}(1-P(y=1|x_{i})^{1-y_{i}}))
