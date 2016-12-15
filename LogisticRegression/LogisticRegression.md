@@ -39,4 +39,6 @@ Suppose
 
 ![](http://latex.codecogs.com/gif.latex?x_{k+1}, x_{k+2},...,x_m) belongs to 0-class
 
+We can construct the following likelihood function:
 
+![](http://latex.codecogs.com/gif.latex?L=\prod_{l=1}^{k})
