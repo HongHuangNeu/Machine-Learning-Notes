@@ -97,4 +97,9 @@ If ![](http://latex.codecogs.com/gif.latex?x_{i}) belongs to 0-class:
 
 so
 
+![](http://latex.codecogs.com/gif.latex?\\frac{\\partial \\log L}{\\partial w}=\\sum^{m}_{i=1}(y_i-s(w^{x_i}))x_i)
+
+
+Then we can use this result to perform gradient ascend to maximize loglikelihood:
+
 
