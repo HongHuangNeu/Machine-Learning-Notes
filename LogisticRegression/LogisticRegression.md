@@ -22,3 +22,7 @@ Given x, the probability that it belongs to 1-class:
 Then the probability for x to belong to 0-class:
 
 ![](http://latex.codecogs.com/gif.latex?P(y=0|x)=1-P(y=1|x)=1-s(w^{T} x))
+
+Given m training data points:
+
+![](http://latex.codecogs.com/gif.latex?x_1, x_2,...,x_m)
