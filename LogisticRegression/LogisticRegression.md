@@ -77,3 +77,6 @@ For the log likelihhod function, take the derivative with respect to w:
 ![](http://latex.codecogs.com/gif.latex?\\frac{\\partial \\log L}{\\partial w})
 ![](http://latex.codecogs.com/gif.latex?=\\sum^{m}_{i=1}(y_i \\frac{s'(z_i)}{s(z_i)} \\frac{\\partial z_i}{\\partial w} +(1-y_i)\\frac{-s'(z_i)}{1-s(z_i)} \\frac{\\partial z_i}{\\partial w} ))
 
+Use formula (1)
+
+![](http://latex.codecogs.com/gif.latex?=\\sum^{m}_{i=1}(y_i (1-s(z_i)) \\frac{\\partial z_i}{\\partial w} +(1-y_i)(-s(z_i)) \\frac{\\partial z_i}{\\partial w} ))
