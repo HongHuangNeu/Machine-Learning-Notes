@@ -41,4 +41,4 @@ Suppose
 
 We can construct the following likelihood function:
 
-![](http://latex.codecogs.com/gif.latex?L=\\prod_{l=1}^{k})
+![](http://latex.codecogs.com/gif.latex?L=\\prod_{l=1}^{k}P(y=1|x_{l})\\prod_{l=k+1}^{m}P(y=0|x_{l}))
