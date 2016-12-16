@@ -111,4 +111,4 @@
 
 下面给出我用ipython notebook演示的逻辑回归的实现的链接：
 
-[用ipython notebook实现逻辑回归的链接](http://nbviewer.jupyter.org/github/HongHuangNeu/Machine-Learning-Notes/blob/master/LogisticRegression/LogisticRegression.ipynb)
+[用ipython notebook实现逻辑回归的链接](http://nbviewer.jupyter.org/github/HongHuangNeu/Machine-Learning-Notes/blob/try/LogisticRegression/LogisticRegressionCN.ipynb)
