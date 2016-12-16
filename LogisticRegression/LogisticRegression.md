@@ -111,4 +111,4 @@ Then we can use this result to perform gradient ascend to maximize loglikelihood
 
 The following is the link to a ipython notebook which describes how to implement a Logistic classifier in Python:
 
-[The link to the ipython notebook](LogisticRegression.ipynb)
+[The link to the ipython notebook](http://nbviewer.jupyter.org/github/HongHuangNeu/Machine-Learning-Notes/blob/master/LogisticRegression/LogisticRegression.ipynb)
