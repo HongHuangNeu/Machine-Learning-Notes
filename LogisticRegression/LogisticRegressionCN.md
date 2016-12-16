@@ -81,7 +81,7 @@
 
 ![](http://latex.codecogs.com/gif.latex?=\\sum^{m}_{i=1}(y_i (1-s(z_i)) \\frac{\\partial z_i}{\\partial w} +(1-y_i)(-s(z_i)) \\frac{\\partial z_i}{\\partial w} ))
 
-得到 ![](http://latex.codecogs.com/gif.latex?z_i=w^{T} x_{i}) and ![](http://latex.codecogs.com/gif.latex?\\frac{\\partial z_i}{\\partial w}=x_i)
+得到 ![](http://latex.codecogs.com/gif.latex?z_i=w^{T} x_{i}) 和 ![](http://latex.codecogs.com/gif.latex?\\frac{\\partial z_i}{\\partial w}=x_i)
 
 ![](http://latex.codecogs.com/gif.latex?=\\sum^{m}_{i=1}(y_i(1-s(z_i))-(1-y_i)s(z_i))x_i)
 
@@ -100,7 +100,7 @@
 ![](http://latex.codecogs.com/gif.latex?\\frac{\\partial \\log L}{\\partial w}=\\sum^{m}_{i=1}(y_i-s(w^{x_i}))x_i)
 
 
-我们就可以用这个结果通过梯度上升求最大似然估计对于的w:
+我们就可以用这个结果通过梯度上升求最大似然估计对应的w:
 
 ![](http://latex.codecogs.com/gif.latex?w:=w+\\alpha \\frac{\\partial \\log L}{\\partial w})
 
