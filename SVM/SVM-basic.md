@@ -11,4 +11,10 @@ VC-dimension measures the complexity of a machine learning model. The higher the
 
 Given a machine learning model, with probability ![](http://latex.codecogs.com/gif.latex?1-\\eta) the following upper-bound holds:
 
-![](http://latex.codecogs.com/gif.latex?\\varepsilon_{true}\\leq\\varepsilon_{A}+\\frac{\\varepsilon \(N\)}{2}\(1+\\sqrt{1+\\frac{\\varepsilon_{A}}{\\varepsilon \(N\)}} \))
+![](http://latex.codecogs.com/gif.latex?\\varepsilon_{true}\\leq\\varepsilon_{A}+\\frac{\\varepsilon \(N\)}{2}\(1+\\sqrt{1+\\frac{\\varepsilon_{A}}{\\varepsilon \(N\)}} \)) (*)
+
+where ![](http://latex.codecogs.com/gif.latex?\\varepsilon \(N\)=4\\frac{h\( \\ln \\frac{2N}{h} +1\)-\\ln\(\\frac{\\eta}{4}\)}{N})
+
+in this equation, N is the size of the training data set and h is the VC-dimension of the model.
+
+![](http://latex.codecogs.com/gif.latex?\\varepsilon_{true}) describes the generalization performance of the model. We try to minimize it. As if the complexity of the model is very high, 
